@@ -1,0 +1,5 @@
+from pathlib import Path
+import scrapy
+
+class cookieSpider(scrapy.Spider):
+    name = "cookie"
